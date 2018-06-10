@@ -5,7 +5,7 @@ if(files.length==0) return ;
 return files;
 })
 files_array = files_array.filter((ele)=>{
-	return ele!=='.DS_Store';
+	return ele!=='.DS_Store'&&ele!=='.gitignore';
 })
 function formateBook(arr){
 	if(files_array.length==0) return;

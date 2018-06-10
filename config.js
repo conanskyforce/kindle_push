@@ -1,8 +1,8 @@
 module.exports = {
 	transport:{
-		service:'163'//your service,
-		host:'smtp.163.com' //your email smtp server,
-		port: 587//port,
+		service:'163',//your service
+		host:'smtp.163.com', //your email smtp server
+		port: 587,//port
 		secure: true,
 		secureConnection: true,
 		auth: {
